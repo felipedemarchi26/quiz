@@ -1,0 +1,14 @@
+MAS exemplo {
+
+	infrastructure: Centralised
+
+	//environment: env.QuizEnv
+	environment: env.QuizEnv2
+
+	agents:
+		questionAgent;
+		answerAgent;
+
+	aslSourcePath:
+		"src/asl";
+}
